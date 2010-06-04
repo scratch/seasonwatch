@@ -1,0 +1,83 @@
+.forms {
+background-color: #E6E6E6;
+font: normal 12px arial,verdana;
+padding: 3px;
+
+border: 3px solid #AAAAAA;
+}
+.myaccount {
+background-color: #DCDCDC;
+font: normal 12px arial,verdana;
+padding: 2px 5px;
+border: 1px solid #CAE4FF;
+
+}
+
+
+
+.main {
+font: normal 12px arial,verdana;
+padding: 2px;
+margin: 2px;
+
+ }
+ 
+ .titlehdr {
+ font: normal 22px arial, verdana;
+ color: #228B22;
+ border-bottom: 1px solid #000;
+ 
+ 
+ }
+ 
+.msg {
+padding: 5px;
+width: 500px;
+margin: 2px;
+color: #FF0000;
+border: 1px solid #c00;
+background-color: #F5DEB3;
+font: bold 10px  verdana;
+} 
+ 
+.error {
+font: normal 11px arial, verdana;
+color: #c00;
+border: 1px solid #c00;
+padding: 2px;
+margin: 5px;
+float: left;
+background-color: #FEF1ED;
+}
+ 
+ .example {
+font: normal 10px arial;
+color: red;
+}
+.approved {
+font: normal 10px arial;
+color: green;
+}
+
+.loginform {
+font: 16px normal arial;
+background-color: #DCDCDC;
+font: normal 12px arial,verdana;
+padding: 3px;
+border: 1px solid #CAE4FF;
+}
+
+.loginform #txtbox {
+font: normal 12px arial;
+color: #000;
+}
+
+input.btn { 
+color:#050; 
+font: bold 84% 'trebuchet ms',helvetica,sans-serif; 
+background-color:#E6E8FA; 
+border: 1px solid; 
+border-color: #696 #363 #363 #696; 
+filter:progid:DXImageTransform.Microsoft.Gradient 
+(GradientType=0,StartColorStr='#ffffffff',EndColorStr='#ffeeddaa'); 
+} 

@@ -1,0 +1,10 @@
+.main_panel { margin-left:20px; margin-top:0; margin-right:auto;width:650px; font-size:11px }
+
+#other_name_box { text-align:right;padding-top:10px;min-height:30px }
+
+input { font-size:11px; padding:2px }
+#sighting input { font-size:11px;border: solid 1px #777777; padding:5px }
+#sighting td { font-size:13px; }
+select { font-size 11px; border: solid 1px #777777;  }
+select option { padding:2px; font-size:11px; }
+textarea { font-size:11px;border: solid 1px #777777; padding:5px }

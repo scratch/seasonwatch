@@ -1,0 +1,25 @@
+.phenfrm {
+    width:600px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.phenfrm tr td:first-child{
+    text-align:right;
+    font-weight:bold;
+}
+
+.phenfrm tr td + td input {
+    width:200px;
+    border: solid 1px #c0c0c0;
+}
+
+.phenfrm tr td + td select {
+    width:200px;
+    border: solid 1px #c0c0c0;
+}
+
+.phenfrm tr radio {
+    width:200px;
+    border: solid 1px #c0c0c0;
+}

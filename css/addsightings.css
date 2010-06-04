@@ -1,0 +1,30 @@
+.addsighting {
+    width:950px; 
+    margin-left:auto; 
+    margin-right:auto;
+    padding-bottom:40px;
+}
+
+.addsighting_loc {
+    margin-top:-10px;
+    padding-top:10px;
+    background-color:#fff; 
+    text-align:right;
+    display:none;
+}
+
+select {
+    border:solid 1px #777;
+    width:228px;
+}
+
+.species-row {
+    //width:950px;
+    margin-left:auto; 
+    margin-right:auto;
+}
+
+.species_table tr td{
+    text-align:center;
+    font-weight:bold
+}

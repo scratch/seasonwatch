@@ -1,0 +1,93 @@
+/* -----------------------------------------------------------------------
+
+
+ Tabs Plugin 0.1 for the Blueprint CSS Framework
+ http://blueprintcss.org
+
+   * Copyright (c) 2008-Present. Refer to the main Blueprint license.
+   * See README for instructions on how to use this plugin.
+   * For credits and origins, see AUTHORS.
+
+----------------------------------------------------------------------- */
+
+.tabs { 
+	//border-top:1px solid #ccc;
+	height:10%; /* fixing IE 6 */
+	margin:0 0 .75em 0;
+	min-height:auto;
+	overflow:auto;
+       //margin-top:-5px;
+        
+}
+
+.tabs li:first-child {
+    margin-left:20px;
+}
+
+.tabs li {
+border:1px solid #ccc;
+  border-top:none;
+  float:left;
+  //line-height:1.5; 
+ list-style-type:none;
+ margin:0 .25em 0 0;
+  
+  
+  width:100px;
+  background-color:#fff;
+  text-align:center; 
+}
+
+.tabs li a { 
+  background:#fff;
+  //border:1px solid #eee;
+  //border-bottom:none;
+  color:#222;
+  cursor:pointer;
+  display:block;
+  //float:left;
+  font-weight:bold;
+  width:100%;
+  text-align:center;
+  //padding:.15em .33em .25em .33em;
+  
+  font-size:15px;
+}
+.tabs li a.selected { 
+  background-color:#ffcb05;
+  //border:1px solid #666;
+  //border-bottom:none;
+  color:#000;
+  cursor:default;
+  text-align:center;
+}
+.tabs li a, .tabs li a:focus, .tabs li a:hover { 
+  text-decoration:none;
+}
+.tabs li a:focus, .tabs li a:hover { 
+  color:#000;
+  outline:none;
+}
+.tabs li a.selected:focus, .tabs li a.selected:hover { 
+  color:#000;
+}	
+.tabs li.label { 
+	border:none;
+	font-weight:bold;
+	line-height:1.5; 
+        text-align:center;
+	padding:.25em .33em .25em .33em;
+}
+
+.tabs li { 
+     margin-left:20px;
+     font:100%;
+     width:150px;
+}
+
+#tab-set { width:950px;margin-top:-5px; }
+
+.tab-page {
+    width:920px;
+}
+
